@@ -3,7 +3,8 @@ Dockerfile for using MSSQL on Linux Docker Container with the Server Agent activ
 
 # How to use
 
-Just create a container with at least this params (changing the defaults for the correct ones for you):
+You can build your own Docker Image or use the one I already built and create a container in the following way:
+(changing the defaults for the correct ones for you)
 
 docker create \
 -e 'ACCEPT_EULA=Y' \
